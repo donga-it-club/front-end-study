@@ -29,3 +29,59 @@
 - 프로젝트 생성
 - 깃, 깃허브 설명
 - 깃허브 레포지토리 생성
+
+### 3주차. 프로젝트 진행 및 코드 리뷰
+
+- [스터디자료](https://trello.com/c/MUsgI06y)
+- 프로젝트 진행
+- 진행 상황 공유 방법
+- 코드 리뷰
+
+### 4주차. 프로젝트 진행 및 진행상황 공유
+
+- [스터디자료](https://trello.com/c/6rrC65jK)
+- 프로젝트 개발
+- 진행 상황 공유
+- 코드 리뷰
+- Project Structure 정의
+- 레퍼런스
+  - [웹 개발](https://trello.com/c/8XxVYlsH)
+  - [RN 앱 개발](https://trello.com/c/8Sk5h1Xp)
+
+### 5주차. 스터디 리뉴얼
+
+- [스터디자료](https://trello.com/c/j58Ax2i4)
+- 근황 Talk
+- 진행 상황 공유
+- 방향성 재정립
+- 단기 목표 / 장기 목표 수립
+
+### 6주차. 목표 달성하기
+
+- [스터디자료](https://trello.com/c/rlMmSCET)
+- 근황 Talk
+- React & React Native & HTML/CSS/JS & Android
+- PDCA Cycle
+- 방향성 잡기
+
+### 7주차. 꾸준히 지속하기
+
+- [스터디자료](https://trello.com/c/HuV4los9)
+- PDCA Cycle 성과 공유
+- Next Cycle
+- Github Copilot
+- React State & Rendering
+- 레퍼런스
+  - [State and Lifecycle](https://ko.reactjs.org/docs/state-and-lifecycle.html)
+  - [React Rendering](https://meetup.toast.com/posts/110)
+  - [Virtual DOM](https://ko.reactjs.org/docs/faq-internals.html)
+  - [Github Copilot](https://docs.github.com/en/copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-visual-studio-code)
+
+### 8주차. 시간을 확보하기
+
+- [스터디자료](https://trello.com/c/4WWZBEUo)
+- PDCA Cycle 성과 공유
+- HTML CSS JS 와 DOM API
+- React의 Virtual DOM & Rendering
+- Rendering 최적화
+- [To do App Example](https://github.com/donga-it-club/front-end-study/tree/main/TodoApp)
