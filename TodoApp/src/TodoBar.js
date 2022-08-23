@@ -13,8 +13,11 @@ const Container = styled.div`
   padding: 0.5rem;
   background-color: #ccc;
 `;
-
-const TodoValue = styled.input`
+const TodoValueContainer = styled.div`
+  font-size: 1.2rem;
+  font-weight: 700;
+`;
+const TodoValueInput = styled.input`
   font-size: 2rem;
   font-weight: 700;
   border: none;
@@ -39,15 +42,36 @@ const EditButton = styled.div`
 `;
 
 const TodoBar = (props) => {
-  const { todo, onDelete, onEdit } = props;
+  const { todo, onDelete, onEdit, thisIndex } = props;
   const [isEditMode, setEditMode] = useState(false);
   const [localTodoValue, setLocalTodoValue] = useState(todo);
 
   return (
     <Container>
-      <TodoValue value={todo} />
+      <TodoValueContainer>
+        {thisIndex + 1}.
+        <TodoValueInput
+          value={isEditMode ? localTodoValue : todo}
+          disabled={!isEditMode}
+          onChange={(e) => {
+            setLocalTodoValue(e.target.value);
+          }}
+        />
+      </TodoValueContainer>
+
       <ButtonContianer>
-        <EditButton onClick={onEdit}>Edit</EditButton>
+        <EditButton
+          onClick={() => {
+            if (isEditMode) {
+              onEdit(thisIndex, localTodoValue);
+              setEditMode(false);
+            } else {
+              setEditMode(true);
+            }
+          }}
+        >
+          {isEditMode ? "Store" : "Edit"}
+        </EditButton>
         <XButton onClick={onDelete}>X</XButton>
       </ButtonContianer>
     </Container>

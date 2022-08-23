@@ -55,7 +55,11 @@ function App() {
     newTodoStore.splice(index, 1);
     setTodoStore(newTodoStore);
   };
-  const todoEditHandler = (index) => {};
+  const todoEditHandler = (index, newValue) => {
+    const newTodoStore = [...todoStore];
+    newTodoStore[index] = newValue;
+    setTodoStore(newTodoStore);
+  };
 
   return (
     <Container>
@@ -71,9 +75,11 @@ function App() {
       </InputContainer>
       {todoStore.map((val, idx) => (
         <TodoBar
+          key={val}
           todo={val}
           onDelete={() => todoDeleteHandler(idx)}
-          onEdit={() => console.log("hi")}
+          onEdit={todoEditHandler}
+          thisIndex={idx}
         />
       ))}
     </Container>
