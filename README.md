@@ -4,14 +4,6 @@
 
 [Notion](https://bit.ly/3xsPI2D)\
 [Trello](https://trello.com/b/z5qDMuaM/%EB%8F%99%EC%95%84%EB%8C%80-front-end-%EC%8A%A4%ED%84%B0%EB%94%94)
-
-- [매장 재고 확인 앱 - 신상훈](https://github.com/rhfo124/Inventory)
-- [배당주식 손익률 알림 앱 - 정세형](https://github.com/pos1504/dividend-stock)
-- [날씨에 따른 옷차림 추천 앱 - 김유희](https://github.com/hapen7535/What-do-I-put-on)
-- [선호하는 캡슐커피 추천 앱 - 정혜원](https://github.com/Jeonghy0517/CapsulePick)
-- [환자와 보호자를 위한 커뮤니티 플랙폼 - 박다산](https://github.com/daa012/for-patient)
-- [캘린더 웹사이트 - 손민석](https://github.com/minseok220/hobby)
-
 ---
 
 ### 1주차. 오리엔테이션
