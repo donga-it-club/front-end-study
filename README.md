@@ -85,3 +85,16 @@
 - React의 Virtual DOM & Rendering
 - Rendering 최적화
 - [To do App Example](https://github.com/donga-it-club/front-end-study/tree/main/TodoApp)
+
+### 9주차. 피드백 받기
+- [스터디자료](https://trello.com/c/UtS9v1KD)
+- PDCA Cycle 성과 공유
+- React State와 Props 활용 간단한 To Do App 만들기 (CRUD)
+- [To do App Example](https://github.com/donga-it-club/front-end-study/tree/main/TodoApp)
+
+### 10주차. 스터디 1차 마무리
+- [스터디자료](https://yoonsang.notion.site/3aaf6ff0ce2643cca4e840747174465e)
+- PDCA Cycle 성과 공유
+- KPT 회고
+- 장기 목표 공유
+- 공부 방향성 
